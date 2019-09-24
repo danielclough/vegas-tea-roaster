@@ -10636,6 +10636,11 @@ hr.light {
   }
 }
 
+@media (max-width: 576px) {
+  header.masthead {
+    padding-top: 25rem !important;
+  }}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
