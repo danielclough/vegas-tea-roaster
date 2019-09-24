@@ -4525,7 +4525,24 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
+@media (max-width: 575.98px) {
+  .navbar-expand-sm > .container,
+  .navbar-expand-sm > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 
+@media (min-width: 576px) {
+  .navbar-expand-sm {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
   .navbar-expand-sm .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4556,6 +4573,24 @@ input[type="button"].btn-block {
   }
 }
 
+@media (max-width: 767.98px) {
+  .navbar-expand-md > .container,
+  .navbar-expand-md > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
   .navbar-expand-md .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -10560,10 +10595,8 @@ hr.light {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
-
-
 
 #mainNav {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -10595,7 +10628,7 @@ hr.light {
   color: #f4623a !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   #mainNav {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -10636,14 +10669,8 @@ hr.light {
   }
 }
 
-@media (max-width: 576px) {
-  header.masthead {
-    padding-top: 25rem !important;
-  }}
-
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: 1rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url("../img/roasted-in-las-vegas-immodestea-white.jpg");
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), url("../img/roasted-in-las-vegas-immodestea-white.jpg");
   background-position: center;
@@ -10656,10 +10683,13 @@ header.masthead h1 {
   font-size: 2.25rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   header.masthead {
-    height: 100%;
-}
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
   header.masthead p {
     font-size: 1.15rem;
   }
