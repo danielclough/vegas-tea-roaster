@@ -10643,9 +10643,9 @@ hr.light {
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url("../img/roasted-in-las-vegas-immodestea-white-sq.jpg");
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), url("../img/roasted-in-las-vegas-immodestea-white-sq.jpg");
+  padding-bottom: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url("../img/roasted-in-las-vegas-immodestea-white.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), url("../img/roasted-in-las-vegas-immodestea-white.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10658,7 +10658,7 @@ header.masthead h1 {
 
 @media (min-width: 576px) {
   header.masthead {
-    height: 100vh;
+    height: 100%;
 }
   header.masthead p {
     font-size: 1.15rem;
