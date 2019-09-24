@@ -10668,9 +10668,14 @@ hr.light {
     color: #f4623a;
   }
 }
+@media (max-width: 576px) {
+  header.masthead {
+    padding-top: 25rem !important;
+  }}
 
 header.masthead {
   padding-top: 10rem;
+  padding-bottom: 1rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url("../img/roasted-in-las-vegas-immodestea-white.jpg");
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), url("../img/roasted-in-las-vegas-immodestea-white.jpg");
   background-position: center;
